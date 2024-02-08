@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Set the height of the body to the full viewport height */
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.color{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100rem;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.shape{
+    width:100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.btn1{
+    margin-bottom: 10px;
+}
+
+.triangle-bottom-left{
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
